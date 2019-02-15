@@ -1,0 +1,213 @@
+
+body {
+
+    margin: auto;
+    max-width: 1200px;
+    background-color: #ffffff; 
+    color: #666666; 
+    font-family: Cinzel, Arial, serif; 
+    padding: 0px; 
+    letter-spacing: 2px;
+}
+
+
+
+header {
+  border-top: 2px solid red;
+  border-bottom: 2px solid red;
+   background-color: peru; 
+    
+
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: brown;
+}
+
+li {
+  float: none;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: black;
+}
+
+
+img {
+    background-color: lemonchiffon;
+    margin-top: 5em;
+  margin-bottom: 5em;
+}
+
+
+  section {
+  background-color: lightgray;  
+    }
+aside {
+  background-color: lavender;  
+ 
+} 
+
+
+
+
+
+h1 {
+  font-family: 'Play', sans-serif;
+  color: black;
+  font-size: 1.7em;
+  font-weight: bold;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  text-transform: uppercase;
+}
+h2 {
+  font-family: 'Play', sans-serif;
+  color: darkslategrey;
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-top: 0.45em;
+  margin-bottom: 0.45em;
+  text-transform: uppercase;
+}
+h3 {
+  font-family: 'Play', sans-serif;
+  color: darkgreen;
+  font-size: 1.4em;
+  font-weight: bold;
+  margin-top: 0.4em;
+  margin-bottom: 0.4em;
+  text-transform: uppercase;
+}
+
+p {
+  font-family: "Open Sans Condensed", sans-serif;
+  color: black;
+  font-size: 1em;
+  font-weight: normal;
+  line-height: 2em;
+    
+}
+footer {
+     background-color: coral; 
+     font-size: .70em; 
+     font-style: italic; 
+     padding-top: 0px; 
+     padding-bottom: 0px; 
+     text-align: center; 
+} 
+
+footer a {
+    margin-right: .3em;
+}
+
+
+/* STYLING FOR TABLET */
+@media only screen and (min-width: 768px) {
+  body {
+    font-size: 16px;
+     padding: 20px;   
+    }
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: brown;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 12px 14px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+    
+  section {
+  background-color: lightgray;  
+    }
+aside {
+  background-color: lavender;  
+ 
+}
+
+ footer {
+  clear: both;
+  margin-bottom: 0;
+}   
+    
+    
+}
+
+
+/* STYLING FOR DESKTOP */
+@media only screen and (min-width: 992px) {
+  body {
+    font-size: 19px;
+     padding: 25px;   
+    }
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: brown;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 13px 15px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: black;
+}
+    
+section {
+  background-color: lightgray;  
+  float: left;
+  margin: 0 0%;
+  width: 64%;
+    
+    
+}
+aside {
+  background-color: lavender;  
+  float: right;
+  margin: 0 0%;
+  width: 35%;
+}
+footer {
+  clear: both;
+  margin-bottom: 0;
+}
+    
+}
